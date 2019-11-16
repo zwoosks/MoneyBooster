@@ -1,0 +1,2 @@
+# MoneyBooster
+Dependenies: EssentialsX
