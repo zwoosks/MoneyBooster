@@ -1,0 +1,28 @@
+###############################################################
+#                   Plugin made by zwoosks.                   #
+# Do not resell, redistribute, edit or decompile this plugin. #
+#            Contact me via Discord (zwoosks#5076)            #
+#            or via email (zwoosks@protonmail.com)            #
+###############################################################
+
+# MySQL credentials. Needed to work properly.
+mysql:
+    user: "username"
+    password: "password"
+    address: "localhost"
+    port: "3306"
+    database: "mboost"
+messages:
+    noEnoughMoney: '&cYou need to reach %requiered%$ to execute this command!'
+    alreadyActive: '&cYou already have an active booster!'
+    help:
+    - '&a%player%, this is the help list.'
+    - '&e/boostsystem hour &f - You pay 20k at one and for two weeks you will receive 15k every hour you are online.'
+    noPerms: '&c%player%, you need the following permission node: &e%perm%'
+    done: '&aYour hourly income has been activated and %cost% were taken from your money balance.'
+    received: '&a15k have been added to your balance for staying 1 hour online!'
+vars:
+    # Duration in days
+    duration: 14
+    rewardPerHour: 15000
+    commandCost: 20000

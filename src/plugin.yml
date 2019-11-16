@@ -1,0 +1,8 @@
+main: org.crealityworks.booster.Main
+name: SaplingMcBoost
+author: zwoosks
+version: 1.0
+commands:
+  boostsystem:
+    aliases: [bsystem, bsys, boostsys, boosts]
+    description: Boost System.
